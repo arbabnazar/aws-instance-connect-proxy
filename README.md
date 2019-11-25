@@ -20,3 +20,4 @@ Host ip-10-1-*
 User ec2-user
 ProxyCommand sh ~/.ssh/aws-proxy.sh --profile test-account --region ap-southeast-2 --filter private-dns-name --key ~/.ssh/test-aws %r %h %p
 ```
+Ref: https://medium.com/skedulo-engineering/an-easier-way-to-do-ec2-instance-connect-6d3f3ee40dd
